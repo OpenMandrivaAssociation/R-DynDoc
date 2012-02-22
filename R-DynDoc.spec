@@ -10,11 +10,8 @@ License:          Artistic-2.0
 URL:              http://bioconductor.org/packages/release/bioc/html/%{packname}.html
 Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
 BuildArch:        noarch
-Requires:         R-core
-Requires:         R-methods R-utils 
-Requires:         R-methods 
+Requires:         R-core R-methods R-utils
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods R-utils
-BuildRequires:    R-methods 
 
 %description
 A set of functions to create and interact with dynamic documents and
