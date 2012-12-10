@@ -10,8 +10,11 @@ License:          Artistic-2.0
 URL:              http://bioconductor.org/packages/release/bioc/html/%{packname}.html
 Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
 BuildArch:        noarch
-Requires:         R-core R-methods R-utils
+Requires:         R-core
+Requires:         R-methods R-utils 
+Requires:         R-methods 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods R-utils
+BuildRequires:    R-methods 
 
 %description
 A set of functions to create and interact with dynamic documents and
@@ -39,3 +42,11 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/Meta
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/help
+
+
+%changelog
+* Thu Feb 16 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.32.0-1
++ Revision: 775494
+- Import R-DynDoc
+- Import R-DynDoc
+
