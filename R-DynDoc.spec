@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.32.0
-Release:          1
+Release:          2
 Summary:          Dynamic document tools
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
