@@ -2,13 +2,13 @@
 %global rlibdir  %{_datadir}/R/library
 
 Name:             R-%{packname}
-Version:          1.38.0
+Version:          1.40.0
 Release:          1
 Summary:          Dynamic document tools
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
 URL:              http://bioconductor.org/packages/release/bioc/html/%{packname}.html
-Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/DynDoc_1.38.0.tar.gz
+Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/DynDoc_1.40.0.tar.gz
 BuildArch:        noarch
 Requires:         R-core
 Requires:         R-methods R-utils 
@@ -49,5 +49,6 @@ rm -f %{buildroot}%{rlibdir}/R.css
 + Revision: 775494
 - Import R-DynDoc
 - Import R-DynDoc
+
 
 
