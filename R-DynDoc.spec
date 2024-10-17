@@ -7,7 +7,7 @@ Release:          2
 Summary:          Dynamic document tools
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
-URL:              http://bioconductor.org/packages/release/bioc/html/%{packname}.html
+URL:              https://bioconductor.org/packages/release/bioc/html/%{packname}.html
 Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/DynDoc_1.40.0.tar.gz
 BuildArch:        noarch
 Requires:         R-core
